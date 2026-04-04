@@ -11,7 +11,7 @@ Ciências Humanas
 - Júlia Beatriz  
 - João Pedro Ernesto
 - Mateus Chaves  
-- Macos Saulo  
+- Marcos Saulo  
 - Pedro Vinicius  
 
 ## Docente
