@@ -1,15 +1,25 @@
-Interárea - SESI MILTON SANTOS 2026
-Área de conhecimento: Ciências humanas
-Equipe:
-Alessandra Neves
-Ana Luisa Rufino
-Clara Tavares
-Guilherme Vieira
-Júlia Beatriz
-João Pedro Ernesto
-Mateus Chaves
-Macos Saulo
-Pedro Vinicius
-Docente: Luis Barbosa
+# Interárea - SESI Milton Santos 2026
 
-(necessita-se da inserção do objetivo do produto final aqui)
+## Área de conhecimento
+Ciências Humanas
+
+##  Equipe
+- Alessandra Neves  
+- Ana Luisa Rufino  
+- Clara Tavares  
+- Guilherme Vieira  
+- Júlia Beatriz  
+- João Pedro  
+- Ernesto  
+- Mateus Chaves  
+- Macos Saulo  
+- Pedro Vinicius  
+
+## Docente
+Luis Barbosa  
+
+## Objetivo do projeto
+*(Aguardando definição da equipe para inserção aqui)*
+
+## Descrição
+Projeto interdisciplinar da área de Ciências Humanas desenvolvido no SESI Milton Santos.
