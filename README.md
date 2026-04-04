@@ -9,8 +9,7 @@ Ciências Humanas
 - Clara Tavares  
 - Guilherme Vieira  
 - Júlia Beatriz  
-- João Pedro  
-- Ernesto  
+- João Pedro Ernesto
 - Mateus Chaves  
 - Macos Saulo  
 - Pedro Vinicius  
