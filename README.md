@@ -18,7 +18,7 @@ Ciências Humanas e Sociais aplicadas
 Luis Barbosa  
 
 ## Objetivo do projeto
-*(Aguardando definição do objetrivo do projeto para inserção aqui)*
+*(Aguardando definição do objetivo do projeto para inserção aqui)*
 
 ## Descrição
 Projeto interdisciplinar da área de Ciências Humanas desenvolvido no SESI Milton Santos.
