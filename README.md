@@ -1,7 +1,7 @@
 # Interárea - SESI Milton Santos 2026
 
 ## Área de conhecimento
-Ciências Humanas
+Ciências Humanas e Sociais aplicadas
 
 ##  Equipe
 - Alessandra Neves  
@@ -14,11 +14,11 @@ Ciências Humanas
 - Marcos Saulo  
 - Pedro Vinicius  
 
-## Docente
+## Docente/Orientador
 Luis Barbosa  
 
 ## Objetivo do projeto
-*(Aguardando definição da equipe para inserção aqui)*
+*(Aguardando definição do objetrivo do projeto para inserção aqui)*
 
 ## Descrição
 Projeto interdisciplinar da área de Ciências Humanas desenvolvido no SESI Milton Santos.
