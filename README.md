@@ -5,7 +5,7 @@ Ciências Humanas e Sociais aplicadas
 
 ##  Equipe
 - Alessandra Neves  
-- Ana Luisa Rufino  
+- Anna Luisa Rufino  
 - Clara Tavares  
 - Guilherme Vieira  
 - Júlia Beatriz  
