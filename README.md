@@ -1,18 +1,18 @@
 # Interárea - SESI Milton Santos 2026
 
 ## Área de conhecimento
-Ciências Humanas e Sociais aplicadas
+Ciências Humanas e Sociais Aplicadas
 
 ##  Equipe
-- Alessandra Neves  
-- Anna Luisa Rufino  
-- Clara Tavares  
-- Guilherme Vieira  
-- Júlia Beatriz  
-- João Pedro Ernesto
-- Mateus Chaves  
-- Marcos Saulo  
-- Pedro Vinicius  
+- Alessandra das Neves Silva 
+- Anna Luiza Mello Rufino 
+- Clara Tavares de Paula Freitas
+- Guilherme Vieira Santos 
+- Júlia Beatriz dos Santos Silva 
+- João Pedro Fagundes Ernesto
+- Mateus Chaves da Silva de Oliveira
+- Marcos Saulo Simões da Costa  
+- Pedro Vinicius Marques Lima Miranda
 
 ## Docente/Orientador
 Luis Barbosa  
