@@ -13,39 +13,81 @@
 <body>
     <header class="headerCadastro">
         <div class="logo">
-<h1>Cadastre suas informações aqui</h1>
+            <img src="../img/logo(placeholder).png" alt="Logo">
+        </div>
+        <div class="espacoCentral">
+            <h1>Cadastre suas informações aqui</h1>
+        </div>
+        <div class="espacoDireto">
+            <!-- Como informado antes, ira ficar vazio ate o usuario preencher o campo.-->
+        </div>
     </header>
     <main>
         <section class="cadastroSection">
-            <!-- Para quem acessar esse documento, favor preencha os campos com as informações fornecidas na imagem de referência 1. (04.04.2026)-->
-            <div id="Esp-nome">
-                <label>Nome</label>
-                <input type="text" placheolder="Digite o seu nome">
+            <div class="camposPrincipais">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo">
             </div>
-            <div id="Esp-email">
-                <label>Email</label>
-                <input type="email" placheolder="Digite o seu email">
+            <div class="camposPrincipais">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu email">
             </div>
-            <div class="infosadicionais">
-                <div>
-                    <label>Qual a sua idade?</label>
-                    <input type="number" placeholder="Digite sua idade">
+            <div class="camposSecundarios">
+                <div class="itemGrid">
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" id="nascimento">
                 </div>
-                <div>
-                    <label>Telefone</label>
-                    <input type="number" placeholder="Telefone para contato">
+                <div class="itemGrid">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" placeholder="Digite seu telefone">
                 </div>
-                <div class="infosadicionais2">
-                    <div>
-                        <label>Possui alguma restrição alimmentar?</label>
-                        <input type="text" placeholder="Digite sua Restrição alimentar">
+                <div class="itemGrid">
+                    <label for="restricoesAlimentares">Restrições Alimentares:</label>
+                    <select id="restricoesAlimentares">
+                        <option value="nenhuma">Nenhuma</option>
+                        <option value="lactose">Lactose</option>
+                        <option value="gluten">Gluten</option>
+                        <option value="ovos">Alergia a Ovos</option>
+                        <option value="leite">Alergia a Leite</option>
+                        <option value="nozes">Alergia a Nozes</option>
+                        <option value="frutos-do-mar">Alergia a Frutos do Mar</option>
+                    </select>
+                </div>
+                <div class="itemGrid">
+                    <label for="ambiente">Ambiente:</label>
+                    <select id="ambiente">
+                        <option value="Aberto e Acolhedor">Aberto e Acolhedor</option>
+                        <option value="Fechado e Independente">Fechado e Independente</option>
+                    </select>
+                </div>
+                <div class="itemGrid">
+                    <div class="camposTerciarios">
+                         <div class="bebidasAlcoolicas">
+                        <label for="interesses">Você consome bebidas alcoolicas?</label>
+                        <select id="interesses">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
                     </div>
-                    <div>
-                        <label>Que tipo de ambiente você gosta?</label>
-                        <input type="text" placeholder="Digite seu tipo de ambiente">
+                        <div class="musicaAlta">
+                            <label for="interesses">Um ambiente com música alta incomoda-lhe?</label>
+                            <select id="interesses">
+                                <option value="sim">Sim</option>
+                                <option value="nao">Não</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-                <!-- Para quem acessar esse documento, favor preencha os campos com as informações fornecidas na imagem de referência 1. (07.04.2026)-->
+                <div class="itemGrid">
+                    <label for="orcamento">Qual é o seu orçamento?</label>
+                    <select id="orcamento">
+                        <option value="baixo">Econômico</option>
+                        <option value="medio">Médio</option>
+                        <option value="alto">Premium</option>
+                    </select> <!-- Por algum motivo esse campo não está de tamanho uniforme. Talvez seja por causa do texto... Favor solucionar (19.04.26)-->
+                </div>
+            </div>
+            <button class="botaoEnviar">Cadastrar</button>
         </section>
     </main>
 </body>
