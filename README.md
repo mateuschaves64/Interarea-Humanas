@@ -18,7 +18,7 @@ Ciências Humanas e Sociais Aplicadas
 Luis Barbosa  
 
 ## Objetivo do projeto
-*(Aguardando definição do objetivo do projeto para inserção aqui)*
+Market Place place interativo baseado nas localidades de estabelecimentos da cidade de Camaçari BA
 
 ## Descrição
 Projeto interdisciplinar da área de Ciências Humanas desenvolvido no SESI Milton Santos.
