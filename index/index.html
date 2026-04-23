@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <!--Link que vai buscar a imagem do ícone simples para seleciona-lo na guia-->
     <link rel="icon" type="svg" href="../img/icone-guia.svg">
-    <title>Placeholder (por enquanto)</title>
+    <title>cadastro</title>
 </head>
 
 <body>
@@ -62,13 +62,13 @@
                 </div>
                 <div class="itemGrid">
                     <div class="camposTerciarios">
-                         <div class="bebidasAlcoolicas">
-                        <label for="interesses">Você consome bebidas alcoolicas?</label>
-                        <select id="interesses">
+                        <div class="bebidasAlcoolicas">
+                            <label for="interesses">Você consome bebidas alcoolicas?</label>
+                            <select id="interesses">
                             <option value="sim">Sim</option>
                             <option value="nao">Não</option>
                         </select>
-                    </div>
+                        </div>
                         <div class="musicaAlta">
                             <label for="interesses">Um ambiente com música alta incomoda-lhe?</label>
                             <select id="interesses">
@@ -84,12 +84,15 @@
                         <option value="baixo">Econômico</option>
                         <option value="medio">Médio</option>
                         <option value="alto">Premium</option>
-                    </select> <!-- Por algum motivo esse campo não está de tamanho uniforme. Talvez seja por causa do texto... Favor solucionar (19.04.26)-->
+                    </select>
+                    <!-- Por algum motivo esse campo não está de tamanho uniforme. Talvez seja por causa do texto... Favor solucionar (19.04.26)-->
                 </div>
             </div>
-            <button class="botaoEnviar">Cadastrar</button>
+            <button id="botaoEnviar">Cadastrar</button>
+
         </section>
     </main>
+    <script src='../js/script.js'></script>
 </body>
 
 </html>
