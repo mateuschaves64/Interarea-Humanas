@@ -6,6 +6,9 @@ const ambi = document.getElementById('ambiente');
 const restri = document.getElementById('restricoesAlimentares');
 const btn = document.getElementById('botaoEnviar');
 const usuarioDisplay = document.getElementById('usuario'); // Pegando o elemento da pg2
+const mens = document.getElementById('feedback');
+const avalia = document.getElementById('av');
+const botao = document.getElementById('button');
 
 
 if (btn) {
@@ -24,6 +27,7 @@ if (btn) {
     });
 }
 
+//Aqui é os codigos da paigna 2:
 
 // Quando a página 2 carregar, ela verifica se existe um nome salvo
 window.addEventListener('load', function() {
@@ -31,5 +35,14 @@ window.addEventListener('load', function() {
 
     if (nomeSalvo && usuarioDisplay) {
         usuarioDisplay.textContent = nomeSalvo;
+    }
+});
+
+botao.addEventListener('click', function () {
+    if(avalia.value.trim()!=''){
+        mens.textContent = 'Sua avaliação foi encaminhada para a nossa equipe!';
+        avalia.value = ''
+    }else{
+        alert('O campo de avaliação se encontra em branco, por favor, insira sua avaliação');
     }
 });

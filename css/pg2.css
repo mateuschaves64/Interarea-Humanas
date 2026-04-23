@@ -142,3 +142,41 @@ h3 {
     font-size: 1.1rem;
     margin-bottom: 15px;
 }
+
+#button{
+    background-color: rgb(100, 146, 100);
+    color: white;
+    width: 84px;
+    height: 55px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+#button:hover{
+   transition: 3.0;
+   transform: scale(1.1);
+   color: rgb(221, 221, 221);
+   background-color: rgb(171, 211, 171);
+}
+
+#feedback{
+    transform: scale();
+    font-style: bold;
+    color: green;
+    transition: 300ms ease;
+}
+
+#vota{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 45px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
