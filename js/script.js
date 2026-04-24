@@ -38,11 +38,11 @@ window.addEventListener('load', function() {
     }
 });
 
-botao.addEventListener('click', function () {
-    if(avalia.value.trim()!=''){
+botao.addEventListener('click', function() {
+    if (avalia.value.trim() != '') {
         mens.textContent = 'Sua avaliação foi encaminhada para a nossa equipe!';
         avalia.value = ''
-    }else{
+    } else {
         alert('O campo de avaliação se encontra em branco, por favor, insira sua avaliação');
     }
 });
