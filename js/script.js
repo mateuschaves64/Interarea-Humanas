@@ -47,3 +47,20 @@ botao.addEventListener('click', function() {
         alert('O campo de avaliação se encontra em branco, por favor, insira sua avaliação');
     }
 });
+
+function openPanel(nome, horario, endereco, telefone, desc, imagem, icones) {
+    document.getElementById('panel-title').innerText = nome;
+    document.getElementById('panel-time').innerText = horario;
+    document.getElementById('panel-address').innerText = endereco;
+    document.getElementById('panel-phone').innerText = telefone;
+    document.getElementById('panel-description').innerText = desc;
+    document.getElementById('panel-img').src = imagem;
+    document.getElementById('panel-icons').innerText = icones;
+    document.getElementById('side-panel').classList.add('active');
+    document.getElementById('overlay').classList.add('active');
+}
+
+function closePanel() {
+    document.getElementById('side-panel').classList.remove('active');
+    document.getElementById('overlay').classList.remove('active');
+}
