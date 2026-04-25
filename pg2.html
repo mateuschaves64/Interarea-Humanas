@@ -26,19 +26,19 @@
         <section class="conteudoSection">
             <h3>Recomendações com base em suas escolhas</h3>
             <div class="gridCards">
-                <div class="card">
+                <div class="card" onclick="openPanel('Fulô', '12:00', 'R. Nova Camaçari, 55-109', '071999145464', 'Fundado em 2016 no coração do bairro Bela Vista, em Camaçari, o Fulô Restaurante Bar e Eventos consolidou-se, ao longo de quase uma década, como um importante bastião da identidade gastronômica da Região Metropolitana de Salvador. O que começou como um projeto de valorização dos sabores regionais floresceu em um espaço multifacetado, onde a culinária baiana é celebrada não apenas como alimento, mas como um elemento de agregação social e celebração cultural.', 'img/fulo.jpg', '🌳🌳🌳🌳')">                    
                     <img src="img/fulo.jpg" alt="Fulô">
                     <div class="cardInfo">
                         <h4>Fulô</h4>
                         <p>Horário de funcionamento: 12:00</p>
                         <p>Localização: R. Nova Camaçari, 55-109 - Bela Vista</p>
                         <p>Telefone: 071999145464</p>
-                        <p>o restaurante aposta em porções clássicas com um toque da casa. O Torresmo Premium (acompanhado de geleia de pimenta Fulô) e os Dadinhos de Tapioca são muito bem avaliados. Outro destaque são os Finórios, que são pastéis mistos
+                        <p>O restaurante aposta em porções clássicas com um toque da casa. O Torresmo Premium (acompanhado de geleia de pimenta Fulô) e os Dadinhos de Tapioca são muito bem avaliados. Outro destaque são os Finórios, que são pastéis mistos
                             com recheios como carne seca cremosa e moqueca de camarão, além do trio de bolinhos que inclui sabores de feijoada e porco na lata.</p>
                         <div class="iconesRaiz">🌳🌳🌳🌳</div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="openPanel('Mar Aberto', '09:50', 'Largo São Francisco - R. Direta de Arembepe, 44 - Abrantes', '071991344410', 'Fundado em 1984, em Arembepe, o Restaurante Mar Aberto nasceu da paixão do casal João e Thierry pela vila. Começou com estrutura simples, cozinha de palha e chão batido, e evoluiu ao longo de 40 anos. Localizado à beira de piscinas naturais formadas por arrecifes, oferece vista privilegiada. Seu nome faz referência à proteção natural contra o mar aberto. A gastronomia combina frutos do mar frescos, culinária baiana e influências internacionais. Já foi eleito o melhor restaurante do Litoral Norte pela revista Veja. Hoje, é referência na região, unindo ambiente rústico e cozinha refinada.', 'img/mar-aberto.jpg', '🌳🌳🌳🌳')">
                     <img src="img/mar-aberto.jpg" alt="Mar Aberto">
                     <div class="cardInfo">
                         <h4>Mar Aberto</h4>
@@ -50,7 +50,7 @@
                         <div class="iconesRaiz">🌳🌳🌳🌳</div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="openPanel('Culinária de Terreiro', '11:40', 'Boulevard Shopping - Camaçari BA', '071996608308', 'O Culinária de Terreiro oferece pratos e quitandas tradicionais da Bahia, feitos com ingredientes da própria terra, como farinha, beiju e derivados da mandioca produzidos na casa de farinha da comunidade. O projeto nasceu na Agrovila Pinhão Manso, em Camaçari, com o objetivo de escoar a produção agrícola local e valorizar comunidades tradicionais. Solange buscou espaço no Boulevard Shopping para dar visibilidade ao trabalho da sua comunidade. Com o projeto Mulheres Solares, promove o empoderamento feminino e fortalece a agricultura familiar, preservando o legado das ganhadeiras. Cada prato carrega história, resistência e afeto, mais que comida, é o sabor vivo da Bahia profunda.', 'img/cdt.jpg', '🌳🌳🌳🌳')">
                     <img src="img/cdt.jpg" alt="Culinária de Terreiro">
                     <div class="cardInfo">
                         <h4>Culinária de Terreiro</h4>
@@ -92,6 +92,22 @@
             </section>
         </div>
     </main>
+    <div id="overlay" onclick="closePanel()"></div>
+    
+    <aside id="side-panel" class="side-panel">
+    <button class="close-btn" onclick="closePanel()">&times;</button>
+        <div class="panel-content">
+            <img id="panel-img" src="" alt="">
+            <h2 id="panel-title"></h2> <div class="panel-details">
+                <p><strong>Funcionamento:</strong> <span id="panel-time"></span></p>
+                <p><strong>Endereço:</strong> <span id="panel-address"></span></p>
+                <p><strong>Contato:</strong> <span id="panel-phone"></span></p>
+            <hr>
+            <p id="panel-description"></p>
+        </div>
+        <div id="panel-icons" class="iconesRaiz"></div>
+        </div>
+    </aside>
     <script src="js/script.js"></script>
     <a id='+' href="cadastro-local.html" class="btn-flutuante">+</a>
 </body>
