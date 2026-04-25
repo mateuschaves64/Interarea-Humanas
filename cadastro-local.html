@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="svg" href="img/icone-guia.svg">
+    <title>Cadastrar Estabelecimento</title>
+    <link rel='stylesheet' href="css/pgcad.css">
+</head>
+
+<body>
+    <header class="headerCadastro">
+        <div class="logo">
+            <img src="img/Logo-teste.png" alt="Logo">
+        </div>
+        <div class="info-header">
+            <h1>Cadastrar Estabelecimento</h1>
+            <h2>Compartilhe a história do seu negócio</h2>
+        </div>
+        <div class="espacoDireto"></div>
+    </header>
+
+    <main>
+        <section class="cadastroSection">
+            <form class="grid-layout">
+                <div class="full-width">
+                    <label for="nome-est">Nome do Estabelecimento</label>
+                    <input type="text" id="nome-est" placeholder="Nome do Estabelecimento">
+                </div>
+
+                <div class="full-width">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" id="endereco" placeholder="Rua, número, bairro">
+                </div>
+
+                <div>
+                    <label for="tipo-est">Tipo de Estabelecimento</label>
+                    <select id="tipo-est">
+                        <option>Restaurante</option>
+                        <option>Bar</option>
+                        <option>Cafeteria</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="op-veg">Possui opções veganas/vegetarianas?</label>
+                    <select id="op-veg">
+                        <option>Vegetariana</option>
+                        <option>Vegana</option>
+                        <option>Ambas</option>
+                        <option>Não possui</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Telefone para contato</label>
+                    <input type="tel" id="tel1" placeholder="(71) 9 9999-9999">
+                    <input type="tel" id="tel2" placeholder="(71) 9 9999-9999">
+                </div>
+
+                <div>
+                    <label for="historia">Conte um pouco da história</label>
+                    <textarea id="historia" placeholder="Origem, motivação e princípios"></textarea>
+                </div>
+
+                <div class="full-width">
+                    <label>Horário de Funcionamento</label>
+                    <input type="text" id="horario1" placeholder="Seg à Sex 11:00 às 22:00">
+                    <input type="text" id="horario2" placeholder="Sáb e Dom 11:00 às 23:00">
+                </div>
+
+                <div class="full-width">
+                    <button type="button" id="btnCadastrarEst">Cadastrar Estabelecimento</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="js/script2.js"></script>
+</body>
+
+</html>

@@ -9,11 +9,12 @@ const usuarioDisplay = document.getElementById('usuario'); // Pegando o elemento
 const mens = document.getElementById('feedback');
 const avalia = document.getElementById('av');
 const botao = document.getElementById('button');
+const mais = document.getElementById('+');
 
 
 if (btn) {
     btn.addEventListener('click', function() {
-        if (nome.value !== '' && email.value !== '') { // Simplifiquei o IF para o exemplo
+        if (nome.value !== '' && email.value !== '' && tel !== '') {
 
             // Salva o nome no "banco de dados" do navegador
             localStorage.setItem('nomeUsuario', nome.value);

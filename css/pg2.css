@@ -200,3 +200,26 @@ h3 {
     transition: 3.0;
     transform: scale(1.1);
 }
+
+.btn-flutuante {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--font-primaria);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: var(--sombra);
+    transition: transform 0.3s ease;
+}
+
+.btn-flutuante:hover {
+    transform: scale(1.1);
+    background-color: var(--verde-agua);
+}
